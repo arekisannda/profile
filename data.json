@@ -1,0 +1,97 @@
+{
+    "skills": [
+        "Typescript",
+        "Javascript",
+        "Node.js",
+        "React",
+        "Python",
+        "Go",
+        "GraphQL",
+        "MongoDB",
+        "Docker",
+        "Kubernetes",
+        "Arduino"
+    ],
+    "experiences": [
+        {
+            "position": "Software Engineer",
+            "id": "Scality",
+            "company": "Scality",
+            "duration": "October 2017 - Present",
+            "description": [
+                "Designed and implemented the feature to allow Zenko to use Google Cloud Storage as target service; developed the client that communicates with the Google Cloud Storage XML API",
+                "Worked in a team to develop Zenko Orbit, the SaaS product for managing users' Zenko instances",
+                "Led the effort to refactor the frontend code base to use Redux in order to simplify and improve the development experience",
+                "Implemented and managed the Kubernetes specifications for deploying the frontend services in the CI testing environment"
+            ]
+        },
+        {
+            "position": "Bookkeeper",
+            "id": "U-Can",
+            "company": "U-Can Food Trading, Inc.",
+            "duration": "June 2014 - 2016",
+            "description": [
+                "Performed Break-Even analysis for the company to determine the prices of products for higher product margins",
+                "Conducted weekly reconciliation of company accounts to ensure their accuracy",
+                "Processed payroll and issued sales invoices in a timely manner"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "React Site v2",
+            "description": "Personal website developed using Typescript/React and deployed on the serverless service, Now",
+            "github": "https://github.com/arekisannda/profile",
+            "tags": [
+                "Typescript",
+                "React",
+                "Next.js",
+                "Now",
+                "Styled-Components",
+                "serverless"
+            ]
+        },
+        {
+            "name": "ossbench",
+            "description": "Object storage service benchmarking tool",
+            "github": "https://github.com/arekisannda/ossbench",
+            "tags": [
+                "Go",
+                "AWS S3",
+                "Azure Blob Storage"
+            ]
+        },
+        {
+            "name": "i3helper",
+            "description": "Helper tool for interacting with the i3 window manager",
+            "github": "https://github.com/arekisannda/i3helper",
+            "tags": [
+                "Go",
+                "i3wm",
+                "linux"
+            ]
+        },
+        {
+            "name": "robotart",
+            "description": "Robotics project for competing in the Robotart competition",
+            "github": "https://github.com/arekisannda/robotart",
+            "tags": [
+                "python",
+                "machine learning",
+                "robotics",
+                "Arduino"
+            ]
+        },
+        {
+            "name": "robocar",
+            "description": "A self-driving RC car project using Tensorflow/CNN",
+            "github": "https://github.com/arekisannda/robocar",
+            "tags": [
+                "python",
+                "machine learning",
+                "Tensorflow",
+                "arduino"
+            ]
+        }
+    ]
+}

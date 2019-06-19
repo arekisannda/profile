@@ -1,7 +1,7 @@
 {
     "name": "arekisannda.dev",
     "version": 2,
-    "alias": ["about.arekisannda.dev"],
+    "alias": ["arekisannda.dev", "www.arekisannda.dev"],
     "builds": [
         { "src": "next.config.js", "use": "@now/next" }
     ]

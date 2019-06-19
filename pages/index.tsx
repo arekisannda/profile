@@ -1,14 +1,20 @@
 import React from "react";
-import Link from "next/link";
-import Header from "../components/header";
+
+import Head from "next/head";
+import Intro from "../components/Intro";
+import About from "../components/About";
+import Experience from "../components/Experience";
+import Projects from "../components/Projects";
 
 export default () => (
-    <main>
-        <Header />
-        <section>
-            <Link href="/about">
-                <a>Go to About Me</a>
-            </Link>
-        </section>
-    </main>
+    <div>
+        <Head>
+            <title>Alexander Chan</title>
+        </Head>
+        <Intro />
+        <About />
+        <Experience />
+        <Projects />
+        <div style={{ height: "250px" }}/>
+    </div>
 );
