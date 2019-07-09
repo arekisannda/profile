@@ -8,7 +8,7 @@ import mainTheme from "../styles/main";
 import Links from "../components/Links";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faBars, faEnvelope, faAngleDoubleRight, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faEnvelope, faAngleDoubleRight, faTimes, faExclamation } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 library.add(
@@ -18,6 +18,7 @@ library.add(
     faEnvelope,
     faAngleDoubleRight,
     faTimes,
+    faExclamation,
 )
 
 interface Props {

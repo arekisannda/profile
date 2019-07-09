@@ -4,5 +4,8 @@
     "alias": ["arekisannda.dev", "www.arekisannda.dev"],
     "builds": [
         { "src": "next.config.js", "use": "@now/next" }
+    ],
+    "routes": [
+        { "src": "^/.+", "dest": "/404" }
     ]
 }

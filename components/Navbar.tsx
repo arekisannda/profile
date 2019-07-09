@@ -13,6 +13,7 @@ const NavbarContainer = styled.div<any>`
     display: ${props => props.hidden ? "none": "flex"};
     position: fixed;
     top: ${props => props.hide ? "-3em" : 0};
+    left: 0;
     width: 100%;
     transition: top 0.25s ease-in-out;
 `;
@@ -60,6 +61,7 @@ const SideBarContainer = styled.div<any>`
     position: fixed;
     overflow: hidden;
     top: ${props => props.hide ? "-12em" : "3em" };
+    left: 0;
     height: ${props => props.hide ? "0" : "100%" };
     width: 100%;
     z-index: 999;
