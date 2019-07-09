@@ -19,7 +19,7 @@
             "company": "Scality",
             "duration": "October 2017 - Present",
             "description": [
-                "Designed and implemented the feature to allow Zenko to use Google Cloud Storage as target service; developed the client that communicates with the Google Cloud Storage XML API",
+                "Designed and implemented the feature to allow Zenko to use Google Cloud Storage as a target service; developed the client that communicates with the Google Cloud Storage XML API",
                 "Worked in a team to develop Zenko Orbit, the SaaS product for managing users' Zenko instances",
                 "Led the effort to refactor the frontend code base to use Redux in order to simplify and improve the development experience",
                 "Implemented and managed the Kubernetes specifications for deploying the frontend services in the CI testing environment"
@@ -40,7 +40,7 @@
     "projects": [
         {
             "name": "React Site v2",
-            "description": "Personal website developed using Typescript/React and deployed on the serverless service, Now",
+            "description": "Personal website developed using Typescript/React and deployed on the serverless platform, Now",
             "github": "https://github.com/arekisannda/profile",
             "tags": [
                 "Typescript",
