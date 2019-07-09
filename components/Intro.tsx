@@ -36,13 +36,17 @@ const SubText = styled.p<any>`
 const SizedText = styled(ColoredText)<any>`
     font-size: 5em;
     font-weight: 900;
-  `;
+
+    @media screen and (max-height: 600px){
+        font-size: 3em;
+    }
+`;
 
 class Intro extends React.PureComponent<any>{
     public render() {
         return (
             <IntroContainer>
-                <TrackedComponent>
+                <TrackedComponent offset={1000}>
                     <ContentContainer>
                         <Fade cascade bottom>
                             <h3>

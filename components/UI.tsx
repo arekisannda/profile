@@ -71,7 +71,7 @@ class VisibleComponent extends React.Component<any, any> {
 
 const TrackedComponent = (props: any) => {
     return (
-        <TrackVisibility once>
+        <TrackVisibility once offset={props.offset}>
             <VisibleComponent>
                 {props.children}
             </VisibleComponent>
