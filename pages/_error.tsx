@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Grid, ContentContainer, ColoredText } from "../components/UI";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Grid, ContentContainer } from "../components/UI";
 import theme from  "../styles/main";
 import Link from "next/link";
 
@@ -21,15 +20,11 @@ const ReturnButton = styled.button<any>`
     }
 `;
 
-
 const ErrorMessageGrid = styled.div<any>`
     margin: auto;
     padding: auto;
 `;
 
-const ErrorIcon = styled.div<any>`
-    margin: auto;
-`;
 const ErrorMessage = styled.h1<any>`
     margin: auto;
 `;
